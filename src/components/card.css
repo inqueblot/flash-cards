@@ -1,0 +1,13 @@
+.card {
+    height: 30vw;
+    width: 50vw;
+    background-color: #deb887;
+    color: #2e3532;
+    border-radius: 8px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    box-shadow: 5px 5px 20px #090b0a;
+}

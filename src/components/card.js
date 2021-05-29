@@ -1,5 +1,6 @@
 import ReactCardFlip from 'react-card-flip';
 import React, { useState } from 'react';
+import "./card.css"
 
 const Card = () => {
     const [isFlipped, setIsFlipped] = useState(false);
@@ -9,11 +10,11 @@ const Card = () => {
     };
     return (
         <ReactCardFlip isFlipped={isFlipped}>
-            <div onClick={handleClick}>
+            <div className="card" onClick={handleClick}>
                 hello world
             </div>
 
-            <div onClick={handleClick}>
+            <div className="card" onClick={handleClick}>
                 goodbye world
             </div>
         </ReactCardFlip>
