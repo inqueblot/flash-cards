@@ -5,9 +5,13 @@ import Card from '../src/components/card'
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <Card />
+      <header className="header">
+        <h1>Flash Cards</h1>
       </header>
+      <div className="App-header">
+        <Card />
+      </div>
+
     </div>
   );
 }
